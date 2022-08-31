@@ -64,6 +64,26 @@ p {
   color: var(--secondary-color);
 }
 
+.btn-light {
+  background: var(--light-color);
+  color: var(--secondary-color);
+}
+
+.bg-dark {
+  background: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-light {
+  background: var(--light-color);
+  color: var(--secondary-color);
+}
+
+.bg-primary {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+
 
 /* Navbar */
 #navbar {
@@ -117,4 +137,29 @@ p {
 #showcase .showcase-content p {
   padding-bottom: 20px;
   line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('../img/photo-1.jpg') no-repeat;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
 }
