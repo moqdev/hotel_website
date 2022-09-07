@@ -2,4 +2,4 @@
 
 Hotel Website HTML/CSS website
 
-![Hotel Website](/images/screenshot.png "Hotel Website")
+![Hotel Website](../hotel_website/img/screenshot.png "Hotel Website")
